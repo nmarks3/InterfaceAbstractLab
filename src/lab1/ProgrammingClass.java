@@ -3,8 +3,10 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author sawyer
+ * setInfo - Sets the course name and course number.
+ * getInfo - Returns all information about the course.
+ * 
+ * @Nolan Marks 
  */
 public abstract class ProgrammingClass {
 

@@ -3,9 +3,9 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
+ * See ProgrammingClass
  *
- * @author your name goes here
+ * @Nolan Marks
  * @version 1.00
  */
 public class IntroJavaCourse extends ProgrammingClass {

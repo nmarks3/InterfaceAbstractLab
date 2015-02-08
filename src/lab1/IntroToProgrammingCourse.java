@@ -3,10 +3,9 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here. NOTE: this class has NO PREREQUISITES! Do not
- * change this fact.
+ * See ProgrammingClass
  *
- * @author your name goes here
+ * @Nolan Marks
  * @version 1.00
  */
 public class IntroToProgrammingCourse extends ProgrammingClass {
@@ -17,7 +16,7 @@ public class IntroToProgrammingCourse extends ProgrammingClass {
 
     @Override
     public void setPrerequisites(String prerequisites) {
-        this.prerequisites = prerequisites; // Need to make this private somehow
+        this.prerequisites = "None"; // Need to make this private somehow
     }
 
 }
