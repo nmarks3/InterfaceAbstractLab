@@ -12,13 +12,12 @@ import javax.swing.JOptionPane;
 public class IntroToProgrammingCourse extends ProgrammingClass {
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        this.setInfo(courseName, courseNumber);
     }
 
     @Override
     public void setPrerequisites(String prerequisites) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.prerequisites = prerequisites;
     }
 
 }

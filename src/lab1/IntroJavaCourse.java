@@ -11,8 +11,7 @@ import javax.swing.JOptionPane;
 public class IntroJavaCourse extends ProgrammingClass {
 
     public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        this.setInfo(courseName, courseNumber);
     }
 
     @Override
