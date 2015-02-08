@@ -21,7 +21,7 @@ public class AdvancedJavaCourse extends ProgrammingClass {
                     "Error: prerequisites cannot be null of empty string");
             System.exit(0);
         }
-        this.prerequisites = prerequisites;
+        this.prerequisites = prerequisites; // Need to make this private somehow
     }
     
 }
