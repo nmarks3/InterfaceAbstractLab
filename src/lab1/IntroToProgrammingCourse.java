@@ -10,9 +10,7 @@ import javax.swing.JOptionPane;
  * @version     1.00
  */
 public class IntroToProgrammingCourse {
-    private String courseName;
-    private String courseNumber;
-    private double credits;
+  
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);

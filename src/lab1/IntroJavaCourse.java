@@ -7,10 +7,7 @@ package lab1;
  * @version     1.00
  */
 public class IntroJavaCourse {
-    String courseName;
-    private String courseNumber;
-    private double credits;
-    private String prerequisites;
+   
 
     public IntroJavaCourse(String courseName, String courseNumber) {
         this.courseName = courseName;
