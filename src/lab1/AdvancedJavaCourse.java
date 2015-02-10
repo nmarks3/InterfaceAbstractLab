@@ -12,7 +12,7 @@ public class AdvancedJavaCourse extends ProgrammingClass {
     
     public AdvancedJavaCourse(String courseName, String courseNumber, 
             double credits, String prerequisites) {
-        this.setInfo(courseName, courseNumber, credits, prerequisites);
+        setInfo(courseName, courseNumber, credits, prerequisites);
     }
     
     @Override
