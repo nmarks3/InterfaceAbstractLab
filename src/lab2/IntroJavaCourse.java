@@ -1,13 +1,15 @@
 package lab2;
 
+import javax.swing.JOptionPane;
+
 /**
  * Describe responsibilities here.
  *
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse {
-    String courseName;
+public class IntroJavaCourse implements Programming{
+    private String courseName;
     private String courseNumber;
     private double credits;
     private String prerequisites;
@@ -39,6 +41,19 @@ public class IntroJavaCourse {
 
     public void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
+    }
+
+    public final void setCourseName(String courseName) {
+        if(courseName == null || courseName.length() == 0) {
+            JOptionPane.showMessageDialog(null,
+                    "Error: courseName cannot be null of empty string");
+            System.exit(0);
+        }
+        this.courseName = courseName;
+    }
+
+    public String getCourseName() {
+        return courseName;
     }
 
     
