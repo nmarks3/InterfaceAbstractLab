@@ -5,7 +5,7 @@ package lab2;
  *
  * @author sawyer
  */
-public interface Programming {
+public interface Course {
     
     public void setCourseName(String courseName);
     public String getCourseName();
