@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @Nolan Marks
  * @version 1.00
  */
-public class IntroJavaCourse extends ProgrammingClass {
+public class IntroJavaCourse extends ProgrammingCourse {
 
     public IntroJavaCourse(String courseName, String courseNumber, double credits,
             String prerequisites) {

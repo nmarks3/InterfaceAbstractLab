@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * 
  * @Nolan Marks 
  */
-public abstract class ProgrammingClass {
+public abstract class ProgrammingCourse {
 
     private String courseName;
     private String courseNumber;
