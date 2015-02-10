@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  */
 public class AdvancedJavaCourse extends ProgrammingCourse {
     
-    public AdvancedJavaCourse(String courseName, String courseNumber, 
+    public AdvancedJavaCourse(String courseName, String courseNumber,
             double credits, String prerequisites) {
         setInfo(courseName, courseNumber, credits, prerequisites);
     }
@@ -22,7 +22,7 @@ public class AdvancedJavaCourse extends ProgrammingCourse {
                     "Error: prerequisites cannot be null of empty string");
             System.exit(0);
         }
-        this.prerequisites = prerequisites; // Need to make this private somehow
+        this.setPrerequisites(prerequisites);
     }
     
 }

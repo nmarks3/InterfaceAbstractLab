@@ -22,7 +22,7 @@ public class IntroJavaCourse extends ProgrammingCourse {
                     "Error: prerequisites cannot be null of empty string");
             System.exit(0);
         }
-        this.prerequisites = prerequisites; // Need to make this private somehow
-    }
+        this.setPrerequisites(prerequisites);
+       }
 
 }

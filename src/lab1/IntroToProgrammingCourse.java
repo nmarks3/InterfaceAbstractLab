@@ -17,7 +17,7 @@ public class IntroToProgrammingCourse extends ProgrammingCourse {
 
     @Override
     public final void setPrerequisites(String prerequisites) {
-        this.prerequisites = "None"; // Need to make this private somehow
+        this.setPrerequisites("None"); 
     }
 
 }

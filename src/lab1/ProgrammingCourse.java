@@ -13,7 +13,7 @@ public abstract class ProgrammingCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
-    String prerequisites;
+    private String prerequisites;
     
     public void setInfo(String courseName, String courseNumber, double credits,
             String prerequisites) {
